@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Auditorium Booking Portal</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1, h2 {
+            color: #fff;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #1c1c1c;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: center;
+            border: 1px solid #444;
+        }
+
+        th {
+            background-color: #444;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #333;
+        }
+
+        tr:hover {
+            background-color: #555;
+        }
+
+        @media (max-width: 600px) {
+            th, td {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+
+        .admin-info {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #222;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .admin-info p {
+            margin: 5px 0;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>University Auditorium Booking Portal</h1>
+        <h2>Sample Credentials</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sr No.</th>
+                    <th>Role</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Student</td>
+                    <td>Ayush Kapoor</td>
+                    <td>12320801</td>
+                    <td>Ayush</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Student</td>
+                    <td>Andip Chauhan</td>
+                    <td>12321016</td>
+                    <td>Andip</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Student</td>
+                    <td>Divyansh Narang</td>
+                    <td>12307411</td>
+                    <td>Divyansh</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Faculty</td>
+                    <td>Deepinder Kaur</td>
+                    <td>29599</td>
+                    <td>Deepinder</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Faculty</td>
+                    <td>Bhawna Sharma</td>
+                    <td>30477</td>
+                    <td>Bhawna</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="admin-info">
+            <p><strong>Admin Login:</strong></p>
+            <p>Username: admin</p>
+            <p>Password: adminpass</p>
+        </div>
+    </div>
+</body>
+</html>
