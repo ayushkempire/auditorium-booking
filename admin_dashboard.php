@@ -36,7 +36,7 @@ $result = $conn->query("
     SELECT requests.*, users.name, users.registration_no, users.email, users.role 
     FROM requests 
     JOIN users ON requests.user_id = users.id
-	WHERE Requests.status != 'pending'
+	WHERE requests.status != 'pending'
 ");
 while ($row = $result->fetch_assoc()) {
     $all_requests[] = $row;
