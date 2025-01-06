@@ -52,6 +52,13 @@
     left: 0;
     bottom: 0;
 }
+.details{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
 
         @media (max-width: 600px) {
             h2 {
@@ -69,6 +76,7 @@
     <h2>Request for University Auditorium Booking</h2>
     <a href="login.php?role=user" class="button">User Sign In</a>
     <a href="login.php?role=admin" class="button">Admin Sign In</a>
+    <p><a href="details.html" class="details" target="_blank">For Login Details Click here</a></p>
     <footer>
     <p>Designed by AyushkEmpire &copy; 2024 AyushkEmpire. All rights reserved.</p>
     </footer>
